@@ -17,7 +17,7 @@ const __dirname = dirname(__filename);
 const app = express();
 
 // Middleware
-app.use(cors());
+app.use(cors('https://codealpha-task1-simple-ecommerce-store.vercel.app/'));
 app.use(express.json());
 
 // Cloudinary configuration
