@@ -35,11 +35,15 @@ export const AddProduct = () => {
                 formData.append('image', data.image);
             }
 
-            await axios.post('http://localhost:5000/api/products', formData, {
-                headers: {
-                    'Content-Type': 'multipart/form-data'
+            await axios.post(
+                'https://backend-558k.onrender.com/api/products',
+                formData,
+                {
+                    headers: {
+                        'Content-Type': 'multipart/form-data'
+                    }
                 }
-            });
+            );
 
             toast.success('Product added successfully');
             navigate('/');

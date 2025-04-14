@@ -60,7 +60,10 @@ export const Cart = () => {
                 totalAmount
             };
 
-            await axios.post('http://localhost:5000/api/orders', orderData);
+            await axios.post(
+                'https://backend-558k.onrender.com/api/orders',
+                orderData
+            );
             dispatch({ type: 'CLEAR_CART' });
             toast.success('Order placed successfully');
             navigate('/');

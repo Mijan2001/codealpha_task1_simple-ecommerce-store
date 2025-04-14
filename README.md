@@ -20,22 +20,21 @@ A complete, modern, and responsive e-commerce web application built with the **M
 
 ## 🚀 Features
 
-### ✅ Frontend (React)
+### Frontend (React)
 
--   💅 Responsive UI built with **Tailwind CSS**
--   🛒 Cart management using **Context API**
--   📋 Form handling with **React Hook Form** + **Zod** for validation
--   🔔 **Toast notifications** for real-time feedback
--   🌐 Complete **React Router** based routing
--   🧠 Type safety with **TypeScript**
+-   Responsive UI built with **Tailwind CSS**
+-   Cart management using **Context API**
+-   Form handling with **React Hook Form** + **Zod** for validation
+-   **Toast notifications** for real-time feedback
+-   Complete **React Router** based routing
 
-### ✅ Backend (Node.js + Express)
+### Backend (Node.js + Express)
 
--   🗂️ MongoDB integration with **Mongoose**
--   ☁️ Image uploads to **Cloudinary**
--   📦 RESTful API endpoints for product, cart, and order management
--   🧾 Order processing system
--   📤 File uploads handled with **Multer**
+-   MongoDB integration with **Mongoose**
+-   Image uploads to **Cloudinary**
+-   RESTful API endpoints for product, cart, and order management
+-   Order processing system
+-   File uploads handled with **Multer**
 
 ---
 

@@ -14,7 +14,7 @@ export const Home = () => {
         const fetchProducts = async () => {
             try {
                 const response = await axios.get(
-                    'http://localhost:5000/api/products'
+                    'https://backend-558k.onrender.com/api/products'
                 );
                 setProducts(response.data);
             } catch (error) {
